@@ -3,8 +3,23 @@
     src: url('fonts/PT_Sans_Caption_Bold.ttf'); /*URL to font*/
 }
 
+@font-face {
+    font-family: 'PTSansCaption'; /*a name to be used later*/
+    src: url('fonts/PT_Sans_Caption.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'PTSans'; /*a name to be used later*/
+    src: url('fonts/PT_Sans.ttf'); /*URL to font*/
+}
+
 h3, h4, h5 {
     font-family: 'PTSansCaptionBold';
+    color: #036867;
+}
+
+h6 {
+    font-family: PTSansCaption;
     color: #036867;
 }
 
@@ -87,7 +102,10 @@ div.gradient-top {
     margin-bottom: 1rem;
     position: relative;
     left: -5px;
-    font-family: 'PTSansCaptionBold';
+    font-family: 'PTSansCaption';
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2rem;
     color: #036867;
     text-align: left;
     border-radius: 0;
@@ -100,4 +118,8 @@ div.gradient-top {
 .card {
     border: none;
     color: #036867;
+}
+
+.card h5 {
+    font-family: 'PTSans';
 }
