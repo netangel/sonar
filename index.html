@@ -38,23 +38,47 @@
             <div class="column col-2">
               <h5>+7&nbsp;(960)&nbsp;003-66-66</h5>
             </div>
-            <div class="column col-2 hide-lg" style="padding-left:3rem;">
+            <div class="column col-3 hide-lg" style="padding-left:3rem;">
               <h6>sonarrus@hotmail.com</h6>
             </div>
           </div>
         </div>
-        <div class="container no-padding-left"> <!-- Main content -->
+        <div id="main-content" class="container no-padding-left"> <!-- Main content -->
           <div class="columns col-gapless col-multiline">
-            <div class="column col-9 no-padding-top"> <!-- Image here -->
+            <div id="main-image-col" class="column col-9 col-lg-11"> <!-- Image here -->
               <img src="/images/title-image.png" alt="" class="img-responsive">
             </div>
-            <div class="column col-9"> <!-- Text here -->
+            <div class="column col-3 hide-lg"> <!-- Menu -->
+              <a class="btn btn-block my-button" href="projects.html">Проекты</a>
+              <a class="btn btn-block my-button" href="/">Оборудование</a>
+              <a class="btn btn-block my-button">Лицензии</a>
+              <a class="btn btn-block my-button">Наши клиенты</a>
+              <a class="btn btn-block my-button">Связаться с нами</a>
+            </div>
+            <div id="main-text-col" class="column col-9 col-lg-11"> <!-- Text here -->
+                <h4>
+                  Заголовок раздела
+                </h4>
+
+                <div class="divider"></div>
+
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+              <div class="centered text-center">
+                <img src="/images/example.png" alt="example" class="img-responsive">
+              </div>
 
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -90,13 +114,20 @@
               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div id="main-text-footer" class="column col-9">
+              <div class="divider"></div>
 
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">ООО "Сонар", г. Архангельск</h4>
+                </div>
+                <div class="card-body">
+                    Телефон: +7&nbsp;(960)&nbsp;003-66-66<br>
+                    Факс: +7&nbsp;(960)&nbsp;003-66-66<br>
+                    Эл. почта: sonarrus@hotmail.com
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -107,17 +138,17 @@
 
 
 
-      <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
-      <script src="/js/jquery.sticky-kit.min.js" type="text/javascript" charset="utf-8"></script>
-      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
+  <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="/js/jquery.sticky-kit.min.js" type="text/javascript" charset="utf-8"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
 
-      <script>
-        $(document).ready(function() {
-          $("#sidebar").stick_in_parent();
-        });
-      </script>
+  <script>
+    $(document).ready(function() {
+      $("#sidebar").stick_in_parent();
+    });
+  </script>
 
-      <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <!-- <script>
       window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
       ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
