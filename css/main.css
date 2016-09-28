@@ -13,6 +13,11 @@
     src: url('fonts/PT_Sans.ttf'); /*URL to font*/
 }
 
+body {
+    background-image: url("/images/background.png");
+    background-repeat: all;
+}
+
 h3, h4, h5 {
     font-family: 'PTSansCaptionBold';
     color: #036867;
@@ -84,11 +89,13 @@ div.gradient-top {
     border-top: 2px solid #a4a4a4;
     border-right: 5px solid #106b68;
     padding: 0 3.5rem;
+    background: #fff none;
 }
 
 #main-text-footer {
     border-right: 5px solid #106b68;
     padding: 0 3.5rem;
+    background: #fff none;
 }
 
 .my-button:hover, .my-button:active {
