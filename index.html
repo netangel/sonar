@@ -23,8 +23,8 @@
   <!-- Add your site or application content here -->
 
   <div class="container">
-    <div class="columns col-gapless" style="height: 100%">
-      <div class="column col-1 gradient-side">
+    <div class="columns col-gapless">
+      <div id="sidebar" class="column col-1 gradient-side">
         <div class="centered" style="width: 75%">
           <img src="/images/side-logo.png" alt="" class="img-responsive">
         </div>
@@ -79,17 +79,22 @@
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
       </div>
-    </div>
   </div>
 
 
 
 
 
-      <!-- <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script> -->
-      <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>  -->
+      <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+      <script src="/js/jquery.sticky-kit.min.js" type="text/javascript" charset="utf-8"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
+
+      <script>
+        $(document).ready(function() {
+          $("#sidebar").stick_in_parent();
+        });
+      </script>
 
       <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <!-- <script>
