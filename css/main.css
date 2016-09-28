@@ -7,8 +7,12 @@ h5 {
     font-family: 'PTSansCaptionBold';
 }
 
-.container {
+.no-padding-left {
     padding-left: 0;
+}
+
+.no-padding-top {
+    padding-top: 0;
 }
 
 div.gradient-side {
