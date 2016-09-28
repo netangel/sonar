@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'PTSansCaptionBold'; /*a name to be used later*/
+    src: url('fonts/PT_Sans_Caption_Bold.ttf'); /*URL to font*/
+}
+
+h5, h6 {
+    font-family: 'PTSansCaptionBold';
+}
+
 .container {
     padding-left: 0;
 }
@@ -27,8 +36,9 @@ div.gradient-top {
 }
 
 .top-bar h5 {
-    margin-left: 1.2rem;
+    margin-left: 1.5rem;
     margin-top: 0rem;
     margin-bottom: 0rem;
-    /*font-size: 1.2rem;*/
+    font-size: 1.7rem;
+    color: #036867;
 }
